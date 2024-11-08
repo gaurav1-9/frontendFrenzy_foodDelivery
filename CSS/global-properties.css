@@ -1,5 +1,6 @@
 :root{
     --spaceCadet: #22223BFF;
+    --spaceCadetLight: #22223bc5;
     --ultraViolet: #4A4E69FF;
     --quartz: #9A8C98FF;
     --dogwood: #C9ADA7FF;
@@ -9,6 +10,7 @@
 @font-face {
     font-family: Gilroy;
     src: url(Gilroy-Regular.ttf) format('truetype');
+    color: var(--spaceCadet);
 }
 
 * {
@@ -21,4 +23,8 @@
 html, body {
     height: 100%;
     width: 100%;
+}
+
+body{
+    background-color: var(--white);
 }

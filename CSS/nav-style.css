@@ -30,6 +30,11 @@ nav{
     text-decoration: none;
     color: var(--spaceCadet);
     padding-left: 4vw;
+    cursor: pointer;
+}
+
+.links a:hover{
+    color: var(--spaceCadetLight);
 }
 
 .icon{
@@ -38,7 +43,7 @@ nav{
 
 @media (max-width:600px) {
     nav{
-        background-color: lightcoral;
+        /* background-color: lightcoral; */
         height: 10vh;
         padding: 0 6vw;
     }
