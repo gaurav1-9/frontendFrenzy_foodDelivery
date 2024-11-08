@@ -30,11 +30,11 @@ nav{
     text-decoration: none;
     color: var(--spaceCadet);
     padding-left: 4vw;
-    cursor: pointer;
 }
 
 .links a:hover{
     color: var(--spaceCadetLight);
+    cursor: pointer;
 }
 
 .icon{
