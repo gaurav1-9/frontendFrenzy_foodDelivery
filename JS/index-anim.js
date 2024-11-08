@@ -26,3 +26,7 @@ tl.from('.right',{
     opacity:0,
     scale:0,
 },'-=1')
+tl.from(".part2",{
+    x:-100,
+    opacity:0,
+},'-=1.1')
