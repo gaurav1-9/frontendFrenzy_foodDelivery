@@ -7,7 +7,7 @@ tl.from('.nav-logo',{
     stagger: 0.2,
     opacity:0,
 })
-tl.from('.nav-part2 .links',{
+tl.from('.nav-part2, .links, .links a',{
     y:-100,
     duration:0.3,
     stagger: 0.2,

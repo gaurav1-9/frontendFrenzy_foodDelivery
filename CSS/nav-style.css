@@ -1,4 +1,4 @@
-.page1 .page2 .page3{
+.page1, .page2, .page3{
     height: 100%;
     width: 100%;
     color: var(--spaceCadet);
