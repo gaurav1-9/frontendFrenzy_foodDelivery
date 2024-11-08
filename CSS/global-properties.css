@@ -1,0 +1,24 @@
+:root{
+    --spaceCadet: #22223BFF;
+    --ultraViolet: #4A4E69FF;
+    --quartz: #9A8C98FF;
+    --dogwood: #C9ADA7FF;
+    --white: #F2E9E4FF;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
